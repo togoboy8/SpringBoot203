@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Check Form</title>
+</head>
+<body>
+
+<p th:inline="text">The employee last name is [[${employee.lname}]] [[${employee.fName}]]. <br>
+
+                    The employee Social Security Number is [[${employee.SSN}]]. <br>
+                    The employee was born [[${employee.DOB}]]. <br>
+
+                    </p>
+
+</body>
+</html>
